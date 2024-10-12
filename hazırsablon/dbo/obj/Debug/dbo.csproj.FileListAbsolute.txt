@@ -1,0 +1,12 @@
+C:\Users\Atakan\source\repos\hazırsablon\dbo\bin\Debug\dbo.dll.config
+C:\Users\Atakan\source\repos\hazırsablon\dbo\bin\Debug\dbo.dll
+C:\Users\Atakan\source\repos\hazırsablon\dbo\bin\Debug\dbo.pdb
+C:\Users\Atakan\source\repos\hazırsablon\dbo\bin\Debug\EntityFramework.dll
+C:\Users\Atakan\source\repos\hazırsablon\dbo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Atakan\source\repos\hazırsablon\dbo\bin\Debug\EntityFramework.xml
+C:\Users\Atakan\source\repos\hazırsablon\dbo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Atakan\source\repos\hazırsablon\dbo\obj\Debug\dbo.csproj.AssemblyReference.cache
+C:\Users\Atakan\source\repos\hazırsablon\dbo\obj\Debug\dbo.csproj.CoreCompileInputs.cache
+C:\Users\Atakan\source\repos\hazırsablon\dbo\obj\Debug\dbo.csproj.Up2Date
+C:\Users\Atakan\source\repos\hazırsablon\dbo\obj\Debug\dbo.dll
+C:\Users\Atakan\source\repos\hazırsablon\dbo\obj\Debug\dbo.pdb

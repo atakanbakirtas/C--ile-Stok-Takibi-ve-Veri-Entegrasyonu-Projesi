@@ -1,0 +1,13 @@
+﻿/* Hakkımızda sayfasına özel CSS */
+.container {
+    max-width: 800px; /* Genişlik ayarı */
+    margin: 0 auto; /* Ortalamak için */
+}
+
+h1, h2 {
+    text-align: center; /* Başlıkları ortala */
+}
+
+p {
+    text-align: justify; /* Paragrafları sağa ve sola yasla */
+}

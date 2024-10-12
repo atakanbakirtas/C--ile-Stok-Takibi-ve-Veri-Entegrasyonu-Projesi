@@ -1,0 +1,99 @@
+﻿/* Genel Sayfa Stilleri */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Box Sınıfı için Stil */
+.box {
+    background-color: #fff; /* Beyaz arka plan */
+    padding: 20px; /* İç boşluk */
+    border-radius: 8px; /* Köşe yuvarlama */
+    margin-bottom: 20px; /* Alt boşluk */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    width: 100%; /* Tam genişlik */
+    box-sizing: border-box; /* Padding ve border'ı genişlik ve yükseklik hesaplamalarına dahil et */
+}
+
+.box-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Buton Stilleri */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Renk geçişi için */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Mavi */
+}
+
+.btn-success {
+    background-color: #28a745; /* Yeşil */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Kırmızı */
+}
+
+.btn-info {
+    background-color: #17a2b8; /* Açık mavi */
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Sarı */
+}
+
+.btn-light {
+    background-color: #f8f9fa; /* Açık gri */
+    color: #333; /* Koyu gri yazı rengi */
+}
+
+/* Buton Grup */
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Form Kontrolleri */
+.form-control {
+    width: calc(100% - 22px); /* Buton ile arası boşluk bırakmak için */
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Padding ve border'ı genişlik ve yükseklik hesaplamalarına dahil et */
+}
+
+/* GridView Stil */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .table th, .table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .table th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }

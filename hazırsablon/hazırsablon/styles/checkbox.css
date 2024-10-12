@@ -1,0 +1,10 @@
+﻿#platforms-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Checkboxlar arasındaki boşluk */
+}
+
+.platform-checkbox {
+    margin: 0;
+    padding: 0;
+}

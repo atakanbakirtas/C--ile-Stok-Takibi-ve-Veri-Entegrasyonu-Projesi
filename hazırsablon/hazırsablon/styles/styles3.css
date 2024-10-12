@@ -1,0 +1,37 @@
+﻿.about-container {
+    padding: 20px;
+    background-color: #74b9ff;
+}
+
+.company-info {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+   
+    .company-info p {
+        margin: 15px 0;
+    }
+
+.contact-info {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+    .contact-info h2 {
+        color: #007bff;
+    }
+
+    .contact-info a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }

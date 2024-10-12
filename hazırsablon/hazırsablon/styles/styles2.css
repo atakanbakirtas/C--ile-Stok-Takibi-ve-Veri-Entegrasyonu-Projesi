@@ -1,0 +1,122 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.platform-selector {
+    margin-bottom: 20px;
+}
+
+    .platform-selector select {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+.dashboard-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.welcome-message {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fab1a0; /* Hoş bir mavi renk */
+    color: #ffffff;
+}
+
+.welcome-header {
+    display: flex;
+    align-items: center;
+}
+
+.welcome-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    color: #007bff;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+    .welcome-icon asp\:label {
+        display: inline-block;
+        line-height: 60px;
+    }
+
+.welcome-message h1 {
+    margin: 0;
+    height: 45px;
+    width: 171px;
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px; /* Maksimum genişliği belirleyin */
+    width: 100%;
+}
+
+    .dashboard .overview, .dashboard .notifications {
+        flex: 1 1 45%; /* Her bölümün genişliği ayarlanabilir */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .dashboard .overview {
+        background-color: #e9f7f9; /* Hoş bir renk */
+    }
+
+    .dashboard .notifications {
+        background-color: #f9f9e9; /* Hoş bir renk */
+    }
+
+    .dashboard .stats {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .dashboard .stat {
+        text-align: center;
+        flex: 1;
+        padding: 15px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+        .dashboard .stat h3 {
+            margin: 0;
+        }
+
+    .dashboard ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .dashboard ul li {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }

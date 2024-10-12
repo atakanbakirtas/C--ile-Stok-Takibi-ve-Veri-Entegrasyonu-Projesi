@@ -1,0 +1,80 @@
+﻿.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form, .contact-info, .map, .social-media {
+    margin-bottom: 20px;
+}
+
+    .contact-form h2, .contact-info h2, .map h2, .social-media h2 {
+        margin-bottom: 15px;
+    }
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .form-button:hover {
+        background-color: #0056b3;
+    }
+
+.map iframe {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icon {
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+}
+
+    .social-icon img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 5px;
+    }
+
+    .social-icon span {
+        display: block;
+    }
+
+/* Üst menüye boşluk eklemek için */
+.navbar {
+    margin-bottom: 20px; /* Üst menü ile içerik arasına boşluk ekler */
+}
+
+/* İçeriğe üstten boşluk eklemek için */
+.content {
+    padding-top: 20px; /* İçeriğin üstünden boşluk ekler */
+}
